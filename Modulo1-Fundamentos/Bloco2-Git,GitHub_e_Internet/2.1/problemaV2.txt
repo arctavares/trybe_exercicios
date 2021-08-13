@@ -1,0 +1,80 @@
+5 motivos para você aprender JavaScript!
+------------------------------------------
+
+O JavaScript é uma linguagem de programação muito poderosa utilizada em todo o mundo!
+
+O uso mais convencional do JavaScript é no contexto do nosso navegador, juntamente com HTML e CSS.
+
+Por que o JavaScript é tão valorizado?
+----------------------------------------
+
+O JavaScript te permite dar dinamismos às páginas. É ele quem garante que sua página tenha a habilidade de reagir às ações das pessoas usuárias.
+
+5 motivos para você aprender JavaScript
+-----------------------------------------
+
+#1 Linguagem muito popular e adotada pelas principais empresas de tecnologia do mundo.
+
+#2 Sintaxe mais simplificada que a maioria das linguagens.
+
+#3 Constante evolução, principalmente por ter uma comunidade engajada.
+
+#4 Utilizado no back-end e no front-end.
+
+#5 Muitas opções de bibliotecas e frameworks que vão maximizar sua produtividade.
+
+#6 Desenvolve melhor o racicinio logico
+
+#7 Javascript e legal
+
+#8 Aprofundar seus talentos como desenvolvedor web.
+
+Motivo 6: JS fixa melhor conceitos basicos de programação
+
+Motivo 7: JS e divertido
+
+Motivo 8: JS e uma linguagem a mais no repertorio de conhecimentos do desenvolvedor
+
+#1 É uma linguagem muito utilizada e preferida pelas gigantes do ramo de tecnologia do mundo.
+
+#2 Não tem uma sintaxe complexa, ao contrário de outras linguagens.
+
+#3 Tem uma comunidade engajada que colabora para que evolua constantemente.
+
+#4 Aplicada tanto no front-end quanto no back-end.
+
+#5 A produtividade é maximizada pela quantidade de bibliotecas e frameworks.e.
+
+#6 Auxilia no desenvolvimento do racicinio logico
+
+#7 JavaScript é supimpa.
+
+#8 Seus talentos como desenvolvedor web serão desenvolvidos.
+
+Motivo 6: JS fixa melhor conceitos basicos de programação
+
+Motivo 7: JS e divertido
+
+Motivo 8: JS e uma linguagem a mais no repertorio de conhecimentos do desenvolvedor
+#1 Linguagem muito popular e adotada pelas principais empresas de tecnologia do mundo.
+
+
+#2 Sintaxe mais simplificada que a maioria das linguagens.
+
+#3 Constante evolução, principalmente por ter uma comunidade engajada.
+
+#4 Utilizado no back-end e no front-end.
+
+#5 Muitas opções de bibliotecas e frameworks que vão maximizar sua produtividade.
+
+#6 Desenvolve melhor o racicinio logico
+
+#7 Javascript e legal
+
+#8 Aprofundar seus talentos como desenvolvedor web.
+
+#9 Aprimora a capacidade de racicínio lógico	
+
+#10 JavaScript é interessante
+
+#11 Te torna uma pessoa talentosa
