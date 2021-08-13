@@ -1,0 +1,6 @@
+Internet
+Unix
+Bash
+Linux
+Terminal
+Ubuntu
