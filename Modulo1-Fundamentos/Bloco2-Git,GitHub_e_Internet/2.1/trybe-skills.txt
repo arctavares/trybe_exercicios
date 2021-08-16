@@ -6,3 +6,4 @@ O que vou aprender na trybe:
 - HTML
 - CSS
 - Javascript
+- React
