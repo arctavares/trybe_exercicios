@@ -1,0 +1,34 @@
+div{
+    padding: 5px;
+    line-height: 10px;
+    height: 40px;
+    width: 200px;
+}
+h3{
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div:hover{
+    border: 1px solid black;
+    
+}
+#primary_color:hover{
+    background-color: blue;
+    color: red;
+}
+#secundary_color:hover{
+    background-color: red;
+    color: blue;
+}
+#complementary_color:hover{
+    background-color: yellow;
+    color: darkblue;
+}
+#dark_color:hover{
+    background-color: darkblue;
+    color: yellow;
+}
+#bright_color:hover{
+    background-color: fuchsia;
+    color: white;
+}

@@ -1,0 +1,36 @@
+ol{
+    background-color: yellow;
+    width: 500px;
+}
+.par {
+    color: green;
+}
+.impar{
+    text-transform: uppercase;
+}
+h1, h2, h3, h4, h5{
+    color: red;
+}
+h3 em,h2 em,h1 em,h4 em,h5 em{
+    font-size: 40px;
+    border: 1px solid black;
+}
+li {
+    font-size: 20px;
+}
+
+li em{
+    font-weight: bold;
+}
+
+.tres_primeiras{
+    color: blue;
+}
+.java{
+    background-color: pink;
+}
+
+a:hover{
+    font-weight: bold;
+    color: red;
+}
