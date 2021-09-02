@@ -58,7 +58,12 @@
         document.querySelectorAll(".main-content .center-content p")[0].innerHTML = "Me vejo formado e trabalhando daqui a 2 anos";
         document.getElementsByClassName("main-content")[0].style.backgroundColor = "rgb(76,164,109)";
         document.getElementsByClassName("center-content")[0].style.backgroundColor = "white";
+        document.getElementsByClassName("title")[0].innerHTML = "Exercicio 5.1 - JavaScript";
         
+        main_content = document.querySelectorAll(".main-content .center-content p");
+        for(let i = 0; i < main_content.length; i +=1){
+            main_content[i].innerHTML = main_content[i].innerHTML.toUpperCase();
+        }
     </script>
   </body>
 </html>
