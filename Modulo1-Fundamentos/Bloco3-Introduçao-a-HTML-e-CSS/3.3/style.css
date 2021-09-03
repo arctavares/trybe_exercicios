@@ -1,29 +1,59 @@
 body {
-    background-color: #E1E289;
+    background-color: #1d1d1d;
+    color: white;
 }
 
 #nome {
     font-size: 20px;
+    text-align: center;
+}
+
+#port{
+    text-align: center;
 }
 
 .destaque {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    color: #0A210F;
+    color: green;
 }
 
-.l1 {
-    font-size: 14px;
+a{
+    color:white;
+    text-decoration: none;
 }
 
-.l2 {
-    font-size: 15px;
+#foto{
+    display: inline-block;
+    background-color: grey;
+    margin: 20px 20px 20px 0px;
+    width: 160px;
+    height: 160px;
+    text-align:center;
+    padding: 5px;
+    border: 1px solid black;
 }
 
-.l3 {
-    font-size: 16px;
+#header{
+    padding: 5px;
+    margin: 10px;
+    margin-left: 0;
 }
 
-.l4 {
-    font-size: 17px;
+#foto_de_perfil{
+    margin: 5px;
+}
+
+#information{
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+}
+
+li a:hover{
+    color: green;
+}
+
+h3{
+    font-weight: normal;
 }
