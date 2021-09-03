@@ -1,0 +1,98 @@
+#navegação{
+    text-align: center;
+}
+
+#navegação li{
+    display: inline-block;
+    margin: 5px;
+}
+li a{
+    text-decoration: none;
+}
+li a:hover{
+    color: blue;
+}
+
+#fatos{
+    margin-top: 10px;
+    padding: 5px;
+}
+#info{
+    margin-top: 10px;
+}
+#info li{
+    margin-left: -25px;
+    margin-top: 3px;
+    list-style-type: none;
+    
+}
+#info h2{
+    margin-left: 10px;
+}
+
+#interesting_facts{
+    padding: 2px;
+    margin-top: 10px;
+    height: 650px;
+}
+
+#lado_esquerdo{
+    margin-top: 10px;
+    width: 710px;
+    height: 595px;
+    padding: 10px;
+    float: left;
+}
+
+#lado_direito_imagens{
+    width: 440px;
+    height: 595px;
+    padding: 10px;
+    margin-top: 10px;
+    float: right;
+}
+
+#fact_number_one{
+    margin: 0px;
+    width: 700px;
+    height: 180px;
+    display:inline-block;
+}
+
+#image1{
+    height: 180px;
+}
+
+#fact_number_one_image{
+    height: 180px;
+    display: inline-block;
+}
+
+#fact_number_two{
+    margin-top: 10px;
+    width: 700px;
+    display: inline-block;
+}
+
+#fact_number_two_image{
+    height: 180px;
+    width: 275px;
+    display: inline-block;
+}
+
+#image2{
+    height: 180px;
+}
+
+#fact_number_tree{
+    margin-top: 10px;
+    width: 700px;
+}
+
+#bibliografia{
+    margin-top: 10px;
+}
+
+#rodape{
+    text-align: center;
+}

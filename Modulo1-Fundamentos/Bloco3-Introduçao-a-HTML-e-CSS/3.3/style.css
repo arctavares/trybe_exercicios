@@ -50,7 +50,7 @@ a{
     margin-top: 20px;
 }
 
-li a:hover{
+a:hover{
     color: green;
 }
 
