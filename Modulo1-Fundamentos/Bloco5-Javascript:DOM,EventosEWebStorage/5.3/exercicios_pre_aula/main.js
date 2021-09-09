@@ -12,8 +12,41 @@ const originalText = firstLi.innerText;
 
 const elementos = [firstLi, secondLi, thirdLi];
 
+function changeClass(event){
+    event.target.classList.add('tech');  // não alterar
+}
+
+function removeClassToSecond(){
+    firstLi.classList.remove('tech');
+    thirdLi.classList.remove('tech');
+}
+
+function removeClassToFirst(){
+    secondLi.classList.remove('tech');
+    thirdLi.classList.remove('tech');
+}
+
+function removeClassToThirt(){
+    firstLi.classList.remove('tech');
+    secondLi.classList.remove('tech');
+}
+  
+firstLi.addEventListener('dblclick', changeClass); 
+firstLi.addEventListener('dblclick', removeClassToFirst); 
+
+secondLi.addEventListener('dblclick', changeClass);
+secondLi.addEventListener('dblclick', removeClassToSecond);
+
+thirdLi.addEventListener('dblclick', changeClass); 
+thirdLi.addEventListener('dblclick', removeClassToThirt);
+
+
+
+
 
 // 2.1. Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
+
+
 
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
