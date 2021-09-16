@@ -81,29 +81,9 @@ for (let i = 0; i < objectSize; i += 1) {
 }
 
 const date = document.getElementById('data');
+date.DatePickerX.init();
+
 const button = document.getElementById('enviar');
-
-function verifyDate() {
-
-  let inputDate = date.value;
-  inputDate = inputDate.replaceAll(' ', '');
-  let arrayDate = inputDate.split('/');
-  let day = parseInt(arrayDate[0], 10);
-  let month = parseInt(arrayDate[1], 10);
-  let year = parseInt(arrayDate[2], 10);
-
-  if (inputDate[2] !== '/' || inputDate[5] !== '/') {
-    date.style.border = '1px solid red';
-  }
-
-  if (day <= 0 || day >= 31) {
-    alert('Dia inserido está incorreto');
-  } else if (month <= 0 || month > 12) {
-    alert('Mês inserido está incorreto');
-  } else if (year < 0) {
-    alert('Ano inserido está incorreto');
-  }
-}
 
 button.addEventListener('click', (event) => {
   event.preventDefault();
@@ -115,5 +95,4 @@ button.addEventListener('click', (event) => {
   verifyMultipleRequirements(resumoCurriculo, 1000, 0);
   verifyMultipleRequirements(cargo, 40, 0);
   verifyMultipleRequirements(descricaoCargo, 500, 0);
-  verifyDate();
 })
