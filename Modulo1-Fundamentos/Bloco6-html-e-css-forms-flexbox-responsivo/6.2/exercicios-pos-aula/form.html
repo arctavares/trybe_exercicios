@@ -1,7 +1,7 @@
 <html>
 
 <head>
-  <title>Page Title</title>
+  <title>Formulario</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
   <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
 
@@ -9,70 +9,93 @@
 
 <body>
 
-  <header>
-    <h1>Formulario de curriculo</h1>
+  <header class="content has-text-centered">
+    <h1 class="title is-1 is-spaced">Formulario de curriculo</h1>
   </header>
 
-  <main>
+  <main class="box">
     <form method="get">
-      <fieldset id="dadosPessoais">
-        <legend>Informações Pessoais</legend>
-        <div id="input">
-          <label for="nome">Nome:</label>
-          <input type="text" max="40" required name="nome" id="nome">
-        </div>
-        <div id="input">
-          <label for="email">Email:</label>
-          <input type="email" max="50" required name="email" id="email">
-        </div>
-        <div id="input">
-          <label for="cpf">CPF:</label>
-          <input type="text" max="11" required name="cpf" id="cpf">
-        </div>
-        <div id="input">
-          <label for="endereco">Endereço:</label>
-          <input type="text" max="200" required name="endereco" id="endereco">
-          <div id="input">
-            <label for="cidade">Cidade:</label>
-            <input type="text" max="28" required name="cidade" id="cidade">
+
+      <fieldset id="dadosPessoais" class="content box">
+        <legend class="has-text-centered subtitle is-4">Informações Pessoais</legend>
+
+        <div id="input" class="field">
+          <label for="nome" class="label">Nome:</label>
+          <div class="control">
+            <input type="text" max="40" required name="nome" id="nome" class="input">
           </div>
-          <div id="input">
-            <label for="estado">Estado:</label>
-            <select name="estado" id="estado" required>
-            </select>
+        </div>
+
+        <div id="input" class="field">
+          <label for="email" class="label">Email:</label>
+          <div class="control">
+            <input type="email" max="50" required name="email" id="email" class="input">
           </div>
-          <div id="input">
-            <label>Tipo:</label>
-            <input type="radio" name="tipo" id="casa" checked>
-            <label for="casa">Casa</label>
-            <input type="radio" name="tipo" id="apartamento">
-            <label for="apartamento">Apartamento</label>
+        </div>
+        <div id="input" class="field">
+          <label for="cpf" class="label">CPF:</label>
+          <div class="control">
+            <input type="text" max="11" required name="cpf" id="cpf" class="input">
+          </div>
+        </div>
+        <div id="input" class="field">
+          <label for="endereco" class="label">Endereço:</label>
+          <div class="control">
+            <input type="text" max="200" required name="endereco" id="endereco" class="input">
+          </div>
+          <div id="input" class="field">
+            <label for="cidade" class="label">Cidade:</label>
+            <div class="control">
+              <input type="text" max="28" required name="cidade" id="cidade" class="input">
+            </div>
+          </div>
+          <div id="input" class="field">
+            <label for="estado" class="label">Estado:</label>
+            <div class="select is-rounded">
+              <select name="estado" id="estado" required>
+              </select>
+            </div>
+          </div>
+          <div id="input" class="control">
+            <label class="label">Tipo:</label>
+            <label for="casa" class="radio">
+              <input type="radio" name="tipo" id="casa" checked>
+              Casa</label>
+            <label for="apartamento" class="radio">
+              <input type="radio" name="tipo" id="apartamento">
+              Apartamento</label>
           </div>
       </fieldset>
 
-      <fieldset>
-        <legend>Dados do ultimo emprego</legend>
-        <div id="input">
-          <label for="resumoCurriculo">Resumo do curriculo:</label>
-          <textarea name="resumoCurriculo" id="resumoCurriculo" cols="30" rows="10" maxlength="1000" required>
+      <fieldset class="content box">
+        <legend class="has-text-centered subtitle is-4">Dados do ultimo emprego</legend>
+        <div id="input" class="control">
+          <label for="resumoCurriculo" class="label">Resumo do curriculo:</label>
+          <textarea name="resumoCurriculo" id="resumoCurriculo" cols="30" rows="10" maxlength="1000" required class="textarea has-fixed-size">
          </textarea>
         </div>
-        <div id="input">
-          <label for="cargo">Cargo:</label>
-          <input type="text" name="cargo" id="cargo" max="40" required>
+        <div id="input" class="field">
+          <label for="cargo" class="label">Cargo:</label>
+          <div class="control">  
+            <input type="text" name="cargo" id="cargo" max="40" required class="input">
+          </div>
         </div>
-        <div id="input">
-          <label for="descricaoCargo">Descrição do cargo:</label>
-          <input type="text" name="descricaoCargo" id="descricaoCargo" max="500" required>
+        <div id="input" class="field">
+          <label for="descricaoCargo" class="label">Descrição do cargo:</label>
+          <div class="control">
+            <input type="text" name="descricaoCargo" id="descricaoCargo" max="500" required class="input">
+          </div>
         </div>
-        <div id="input">
-          <label for="data">Data de inicio:</label>
-          <input type="text" name="data" id="data" required>
+        <div id="input" class="field">
+          <label for="data" class="label">Data de inicio:</label>
+          <div class="control">
+            <input type="text" name="data" id="data" required class="input">
+          </div>
         </div>
       </fieldset>
 
-      <div id="sendButton">
-        <button id="enviar">Enviar</button>
+      <div id="sendButton" class="buttons field">
+        <button id="enviar" class="button is-success is-light">Enviar</button>
       </div>
     </form>
   </main>
