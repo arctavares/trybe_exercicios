@@ -1,3 +1,42 @@
+// FUNÇÕES DE VERIFICAÇÃO
+const nome = document.getElementById('nome');
+const email = document.getElementById('email');
+const cpf = document.getElementById('cpf');
+const endereco = document.getElementById('endereco');
+const cidade = document.getElementById('cidade');
+
+const resumoCurriculo = document.getElementById('resumoCurriculo');
+const cargo = document.getElementById('cargo');
+const descricaoCargo = document.getElementById('descricaoCargo');
+resumoCurriculo.value = ''; // Ṕor algum motivo ele inicia do 9
+
+
+function verifyMaxSize(string, maxSize) {
+  if (string.value.length > maxSize) {
+    string.placeholder = `Excedeu o limite de tamanho do ${string.name}`;
+  }
+  return true;
+}
+
+function verifyMinSize(string, minSize) {
+  if (string.value.length <= minSize) {
+    string.placeholder = `${string.name} não cumpriu com o tamanho minimo de ${minSize}`;
+  }
+}
+
+function verifyRequirement(string) {
+  if (string.value.length === 0) {
+    string.style.border = '1px solid red';
+  }
+}
+
+function verifyMultipleRequirements(string, maxSize, minSize) {
+  if (verifyRequirement(string)) {
+    verifyMaxSize(string, maxSize);
+    verifyMinSize(string, minSize);
+  }
+}
+
 let estados = {
   'AC': 'Acre',
   'AL': 'Alagoas',
@@ -41,37 +80,40 @@ for (let i = 0; i < objectSize; i += 1) {
   select.children[i].innerHTML = contend[i];
 }
 
-/* Teste da data
-Verificar o formato da data dd/mm/aaaa .
-O dia deve ser > 0 e <= 31.
-O mês deve ser > 0 e <= 12.
-O ano não pode ser negativo.
-Caso alguma das condições seja inválida no momento do envio do formulário, exibir via alert uma mensagem de erro contextualizada.
-*/
-
 const date = document.getElementById('data');
 const button = document.getElementById('enviar');
 
-function verifyDate(event) {
-  event.preventDefault();
+function verifyDate() {
+
   let inputDate = date.value;
-  inputDate = inputDate.replaceAll(' ','');
+  inputDate = inputDate.replaceAll(' ', '');
   let arrayDate = inputDate.split('/');
   let day = parseInt(arrayDate[0], 10);
   let month = parseInt(arrayDate[1], 10);
   let year = parseInt(arrayDate[2], 10);
 
-  if(inputDate[2] !== '/'  || inputDate[5] !== '/'){
-    alert('Formato da data incorreto');
+  if (inputDate[2] !== '/' || inputDate[5] !== '/') {
+    date.style.border = '1px solid red';
   }
 
   if (day <= 0 || day >= 31) {
     alert('Dia inserido está incorreto');
-  }else if(month <= 0 || month > 12){
+  } else if (month <= 0 || month > 12) {
     alert('Mês inserido está incorreto');
-  }else if(year < 0){
+  } else if (year < 0) {
     alert('Ano inserido está incorreto');
   }
 }
 
-button.addEventListener('click', verifyDate)
+button.addEventListener('click', (event) => {
+  event.preventDefault();
+  verifyMultipleRequirements(nome, 40, 0);
+  verifyMultipleRequirements(email, 50, 0);
+  verifyMultipleRequirements(cpf, 11 , 11);
+  verifyMultipleRequirements(endereco, 200, 0);
+  verifyMultipleRequirements(cidade, 28, 0);
+  verifyMultipleRequirements(resumoCurriculo, 1000, 0);
+  verifyMultipleRequirements(cargo, 40, 0);
+  verifyMultipleRequirements(descricaoCargo, 500, 0);
+  verifyDate();
+})
