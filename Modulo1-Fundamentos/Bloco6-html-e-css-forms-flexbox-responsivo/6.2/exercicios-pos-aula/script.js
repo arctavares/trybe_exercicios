@@ -11,32 +11,6 @@ const descricaoCargo = document.getElementById('descricaoCargo');
 resumoCurriculo.value = ''; // Ṕor algum motivo ele inicia do 9
 
 
-function verifyMaxSize(string, maxSize) {
-  if (string.value.length > maxSize) {
-    string.placeholder = `Excedeu o limite de tamanho do ${string.name}`;
-  }
-  return true;
-}
-
-function verifyMinSize(string, minSize) {
-  if (string.value.length <= minSize) {
-    string.placeholder = `${string.name} não cumpriu com o tamanho minimo de ${minSize}`;
-  }
-}
-
-function verifyRequirement(string) {
-  if (string.value.length === 0) {
-    string.style.border = '1px solid red';
-  }
-}
-
-function verifyMultipleRequirements(string, maxSize, minSize) {
-  if (verifyRequirement(string)) {
-    verifyMaxSize(string, maxSize);
-    verifyMinSize(string, minSize);
-  }
-}
-
 let estados = {
   'AC': 'Acre',
   'AL': 'Alagoas',
@@ -81,18 +55,19 @@ for (let i = 0; i < objectSize; i += 1) {
 }
 
 const date = document.getElementById('data');
+
 date.DatePickerX.init();
 
-const button = document.getElementById('enviar');
+const formulario = document.getElementById('formulario');
+
+const button = document.getElementById('sendButton');
 
 button.addEventListener('click', (event) => {
   event.preventDefault();
-  verifyMultipleRequirements(nome, 40, 0);
-  verifyMultipleRequirements(email, 50, 0);
-  verifyMultipleRequirements(cpf, 11 , 11);
-  verifyMultipleRequirements(endereco, 200, 0);
-  verifyMultipleRequirements(cidade, 28, 0);
-  verifyMultipleRequirements(resumoCurriculo, 1000, 0);
-  verifyMultipleRequirements(cargo, 40, 0);
-  verifyMultipleRequirements(descricaoCargo, 500, 0);
-})
+});
+
+validation.init(formulario, {
+  events: ["change", "paste", "keyup"]
+}); // CORRETO
+
+

@@ -34,5 +34,8 @@
     "npm": "*",
     "time-grunt": "*"
   },
-  "dependencies": {}
+  "dependencies": {
+    "just-validate": "^1.5.0",
+    "popup-validation": "^3.0.3"
+  }
 }
