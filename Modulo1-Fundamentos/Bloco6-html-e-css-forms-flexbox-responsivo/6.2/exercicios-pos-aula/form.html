@@ -37,21 +37,21 @@
           </div>
         </div>
 
-        <div id="input" class="field form-group">
+        <div id="input" class="field form-group col-md-6">
           <label for="cpf" class="label">CPF:</label>
           <div class="control">
-            <input type="text" max="11" required name="cpf" id="cpf" class="input">
+            <input type="text" max="11" required name="cpf" id="cpf" class="input validate" data-validate="required">
           </div>
         </div>
-        <div id="input" class="field form-group">
+        <div id="input" class="field form-group col-md-6">
           <label for="endereco" class="label">Endereço:</label>
           <div class="control">
-            <input type="text" max="200" required name="endereco" id="endereco" class="input">
+            <input type="text" max="200" required name="endereco" id="endereco" class="input validate" data-validate="required">
           </div>
-          <div id="input" class="field form-group">
+          <div id="input" class="field form-group col-md-6">
             <label for="cidade" class="label">Cidade:</label>
             <div class="control">
-              <input type="text" max="28" required name="cidade" id="cidade" class="input">
+              <input type="text" max="28" required name="cidade" id="cidade" class="input validate" data-validate="required">
             </div>
           </div>
           <div id="input" class="field form-group">
@@ -77,25 +77,25 @@
         <div id="input" class="control">
           <label for="resumoCurriculo" class="label">Resumo do curriculo:</label>
           <textarea name="resumoCurriculo" id="resumoCurriculo" cols="30" rows="10" maxlength="1000" required
-            class="textarea has-fixed-size">
+            class="textarea has-fixed-size validate" data-validate="required">
          </textarea>
         </div>
         <div id="input" class="field">
           <label for="cargo" class="label">Cargo:</label>
           <div class="control">
-            <input type="text" name="cargo" id="cargo" max="40" required class="input">
+            <input type="text" name="cargo" id="cargo" max="40" required class="input validate" data-validate="required">
           </div>
         </div>
         <div id="input" class="field">
           <label for="descricaoCargo" class="label">Descrição do cargo:</label>
           <div class="control">
-            <input type="text" name="descricaoCargo" id="descricaoCargo" max="500" required class="input">
+            <input type="text" name="descricaoCargo" id="descricaoCargo" max="500" required class="input validate" data-validate="required">
           </div>
         </div>
         <div id="input" class="field">
           <label for="data" class="label">Data de inicio:</label>
           <div class="control">
-            <input type="text" name="data" id="data" required class="input">
+            <input type="text" name="data" id="data" required class="input validate" data-validate="required">
           </div>
         </div>
       </fieldset>
