@@ -80,3 +80,50 @@
   padding: 20px;
   height: 1%;
 }
+
+/* regras para impressão */
+@media print {
+  header, nav, footer {
+    display:none;
+  }
+  main {
+    display: flex;
+    flex-direction: column;  
+  }
+  #content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #aside {
+    display: none;
+  }
+  body {
+    padding:0px;
+    margin: 0px;
+  }
+  #content {
+    width: 90%;
+  }
+  #content img {
+    width: 100%;
+  }
+  
+  #navigation {
+    padding-top: 80px;
+  }
+
+  #navigation ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #navigation li a {
+    border-right: none;
+  }
+  #header {
+    position: fixed;
+    width: 100%;
+  }
+}
