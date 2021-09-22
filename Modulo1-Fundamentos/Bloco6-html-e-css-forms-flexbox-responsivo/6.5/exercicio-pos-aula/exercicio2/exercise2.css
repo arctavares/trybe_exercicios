@@ -60,6 +60,7 @@ html {
   }
   .aside-one h2 {
     text-align: center;
+    text-shadow: 3px 3px 5px black;
   }
   /* FIM DO ASIDE ONE */
   /* ASIDE TWO */
@@ -71,6 +72,7 @@ html {
   }
   .aside-two h2 {
     text-align: center;
+    text-shadow: 3px 3px 5px black;
   }
   /* FIM DO ASIDE TWO */
   /* MAIN CONTENT */
@@ -82,6 +84,7 @@ html {
   }
   .main-content h1 {
     text-align: center;
+    text-shadow: 3px 3px 5px black;
   }
   /* MAIN CONTENT */
   footer {
@@ -90,5 +93,210 @@ html {
     border-radius: 20px;
     padding: 5px;
     text-align: center;
+  }
+}
+
+/* para aparelhos com largura entre 601px e 768px */
+@media screen and (max-width: 768px) and (min-width: 601px) {
+  body {
+    background-color: #2A0944;
+    color: #FEC260;
+    padding: 20px;
+  }
+  li:hover {
+    color: #A12568;
+  }
+  li {
+    list-style: none;
+  }
+  h1, h2, h3 {
+    font-weight: 150;
+  }
+  /* CABEÇALHO */
+  header {
+    background-color: #3B185F;
+    border-radius: 20px;
+    padding-top: 3px;
+  }
+  header p {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 3px 3px 5px black;
+  }
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+  }
+  header ul {
+    width: fit-content;
+    display: flex;
+    padding-left: 0;
+  }
+  header li {
+    list-style: none;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  /* FIM DO CABEÇALHO */
+  /* ASIDE ONE */
+  .aside-one {
+    margin-top: 20px;
+    background-color: #3B185F;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .aside-one h2 {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 3px 3px 5px black;
+  }
+  /* FIM DO ASIDE ONE */
+  /* ASIDE TWO */
+  .aside-two {
+    margin-top: 20px;
+    background-color: #3B185F;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  .aside-two h2 {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 3px 3px 5px black;
+
+  }
+  /* FIM DO ASIDE TWO */
+  /* MAIN CONTENT */
+  .main-content {
+    margin-top: 20px;
+    background-color: #3B185F;
+    border-radius: 20px;
+    padding: 15px 30px;
+  }
+  .main-content h1 {
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+  }
+  /* MAIN CONTENT */
+  footer {
+    background-color: #3B185F;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  body {
+    background-color: #2A0944;
+    color: #FEC260;
+    padding: 20px;
+  }
+  li:hover {
+    color: #A12568;
+  }
+  li {
+    list-style: none;
+  }
+  h1, h2, h3 {
+    font-weight: 150;
+  }
+  /* CABEÇALHO */
+  header {
+    background-color: #3B185F;
+    border-radius: 20px;
+    padding-top: 3px;
+  }
+  header p {
+    text-align: center;
+    font-size: 3em;
+    text-shadow: 3px 3px 5px black;
+  }
+  header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+  }
+  header ul {
+    width: fit-content;
+    display: flex;
+    padding-left: 0;
+  }
+  header li {
+    list-style: none;
+    margin: 0 5px;
+    cursor: pointer;
+    text-shadow: 3px 3px 5px black;
+  }
+  /* FIM DO CABEÇALHO */
+
+  /* ASIDE CONTAINER */
+
+  .aside-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* FIM DO ASIDE CONTAINER */
+
+  /* ASIDE ONE */
+  .aside-one {
+    margin-top: 20px;
+    background-color: #3B185F;
+    border-radius: 20px;
+    padding: 5px;
+    flex-basis: 48%;
+  }
+  .aside-one li {
+    font-size: 1.5em;
+  }
+  .aside-one h2 {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 3px 3px 5px black;
+  }
+  /* FIM DO ASIDE ONE */
+  /* ASIDE TWO */
+  .aside-two {
+    margin-top: 20px;
+    background-color: #3B185F;
+    border-radius: 20px;
+    padding: 5px;
+    flex-basis: 48%;
+  }
+  .aside-two li {
+    font-size: 1.5em;
+  }
+  .aside-two h2 {
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 3px 3px 5px black;
+  }
+  /* FIM DO ASIDE TWO */
+  /* MAIN CONTENT */
+  .main-content {
+    margin-top: 20px;
+    background-color: #3B185F;
+    border-radius: 20px;
+    padding: 15px 30px;
+  }
+  .main-content p {
+    font-size: 1.5em;
+  }
+  .main-content h1 {
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+  }
+  /* MAIN CONTENT */
+  footer {
+    background-color: #3B185F;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5em;
   }
 }
