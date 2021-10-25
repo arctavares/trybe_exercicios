@@ -35,44 +35,44 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 **Bloco 5: JavaScript: DOM, eventos e Web Storage**
 - [x] 5-1: JavaScript - DOM e seletores
 - [x] 5-2: JavaScript - Trabalhando com elementos
-- [ ] 5-3: JavaScript - Eventos
-- [ ] 5-4: JavaScript - Web Storage
-- [ ] 5-5: Projeto - Arte com Pixels
-- [ ] 5-6: Projeto - Lista de tarefas
-- [ ] 5-7: Projeto - Meme Generator
-- [ ] 5-7: Projeto - Adivinhe a Cor
-- [ ] 5-7: Projeto - Carta Misteriosa
+- [x] 5-3: JavaScript - Eventos
+- [x] 5-4: JavaScript - Web Storage
+- [x] 5-5: Projeto - Arte com Pixels
+- [x] 5-6: Projeto - Lista de tarefas
+- [x] 5-7: Projeto - Meme Generator
+- [x] 5-7: Projeto - Adivinhe a Cor
+- [x] 5-7: Projeto - Carta Misteriosa
 ​
 
 **Bloco 6: HTML e CSS: Forms, Flexbox e Responsivo**
-- [ ] 6-1: HTML e CSS - Forms
-- [ ] 6-2: Bibliotecas JavaScript e Frameworks CSS
-- [ ] 6-3: CSS Flexbox - Part 1
-- [ ] 6-4: CSS Flexbox - Part 2
-- [ ] 6-5: CSS Responsivo - Mobile First
-- [ ] 6-6: Projeto - Trybewarts
+- [x] 6-1: HTML e CSS - Forms
+- [x] 6-2: Bibliotecas JavaScript e Frameworks CSS
+- [x] 6-3: CSS Flexbox - Part 1
+- [x] 6-4: CSS Flexbox - Part 2
+- [x] 6-5: CSS Responsivo - Mobile First
+- [x] 6-6: Projeto - Trybewarts
 
 ​
 **Bloco 7: Introdução à JavaScript ES6 e Testes Unitários**
-- [ ] 7-1: JavaScript ES6 - let, const, arrow functions e template literals
-- [ ] 7-2: JavaScript ES6 - Objects
-- [ ] 7-3: Testes unitários em JavaScript
-- [ ] 7-5: Projeto - JavaScript Testes Unitários
+- [x] 7-1: JavaScript ES6 - let, const, arrow functions e template literals
+- [x] 7-2: JavaScript ES6 - Objects
+- [x] 7-3: Testes unitários em JavaScript
+- [x] 7-5: Projeto - JavaScript Testes Unitários
 ​
 
 **Bloco 8: Higher Order Functions do JavaScript ES6**
-- [ ] 8-1: JavaScript ES6 - Introdução a Higher Order Functions 
-- [ ] 8-2: JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort
-- [ ] 8-3: JavaScript ES6 - Higher Order Functions - map e filter
-- [ ] 8-4: JavaScript ES6 - Higher Order Functions - reduce
-- [ ] 8-5: JavaScript ES6 - spread operator, parameter rest, destructuring e mais
-- [ ] 8-6: Projeto - Zoo functions
+- [x] 8-1: JavaScript ES6 - Introdução a Higher Order Functions 
+- [x] 8-2: JavaScript ES6 - Higher Order Functions - forEach, find, filter, some, every, sort
+- [x] 8-3: JavaScript ES6 - Higher Order Functions - map e filter
+- [x] 8-4: JavaScript ES6 - Higher Order Functions - reduce
+- [x] 8-5: JavaScript ES6 - spread operator, parameter rest, destructuring e mais
+- [x] 8-6: Projeto - Zoo functions
 ​
 
 **Bloco 9: JavaScript Assíncrono e Promises**
-- [ ] 9-1: JavaScript Assíncrono e Callbacks
-- [ ] 9-2: JavaScript Promises
-- [ ] 9-3: Projeto - Carrinho de Compras
+- [x] 9-1: JavaScript Assíncrono e Callbacks
+- [x] 9-2: JavaScript Promises
+- [x] 9-3: Projeto - Carrinho de Compras
 ​
 
 **Bloco 10: Testes automatizados com Jest**
