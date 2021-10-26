@@ -1,0 +1,31 @@
+.title {
+  text-align: center;
+  font-weight: 300;
+}
+footer {
+  text-align: center;
+}
+
+footer h1 {
+  font-weight: 300;
+}
+
+main {
+  width: 100%;
+}
+
+.cardsContainer {
+  width: 100%;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: black;
+  margin: 20px;
+  border-radius: 30px;
+  width: 300px;
+  text-align: center;
+}
