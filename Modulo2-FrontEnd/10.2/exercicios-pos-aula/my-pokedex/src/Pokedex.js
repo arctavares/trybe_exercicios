@@ -8,7 +8,7 @@ class Pokedex extends Component {
       <>
         <h1>Pokedex</h1>
         <div className='pokemonsContainer'>
-        {pokemons.map(pokemon => <Pokemon key={pokemon.id} pokemon={pokemon} />)}
+          {pokemons.map(pokemon => <Pokemon key={pokemon.id} pokemon={pokemon} />)}
         </div>
       </>
     );
