@@ -1,8 +1,0 @@
-Internet
-Unix
-Bash
-a
-b
-c
-d
-e

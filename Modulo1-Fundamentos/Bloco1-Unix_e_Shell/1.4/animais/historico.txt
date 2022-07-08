@@ -1,5 +1,0 @@
- 1438  ls
- 1439  rm historico.txt 
- 1440  clear
- 1441  ls
- 1442  history | tail -5 | cat > historico.txt
