@@ -30,7 +30,10 @@ const attributes = {
   }
 };
 
-module.exports = (sequelize, DataTypes) => {
+/**
+ * @param {import('sequelize').Sequelize} sequelize 
+ */
+module.exports = (sequelize) => {
     const model = sequelize.define('Book', attributes, {
       tableName:'Books',    
     });

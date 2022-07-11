@@ -1,9 +1,8 @@
-const sequelize = require('sequelize');
-const { DataTypes } = require('sequelize');
-const Book = require('../db/models/Book');
+
+const models = require('../db/models');
 
 const getAll = async () => {
-  const books = await Book.findAll();
+  const books = await models.Book.findAll();
   return books;
 };
 
