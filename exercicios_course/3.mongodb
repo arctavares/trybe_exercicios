@@ -1,0 +1,1 @@
+db.restaurants.countDocuments({rating: {$gte: 8}})
