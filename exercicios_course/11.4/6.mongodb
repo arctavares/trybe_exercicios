@@ -1,0 +1,9 @@
+use('test');
+db.moviess.updateOne({
+    title: 'Home Alone'
+},
+{
+    $mul: {
+        imdbRating: Int32(4)
+    }
+})

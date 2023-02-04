@@ -1,0 +1,2 @@
+use("test");
+db.bios.findOne({"_id":8});

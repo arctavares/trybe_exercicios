@@ -1,0 +1,8 @@
+use('test');
+db.movies.find(
+   {
+     $expr: {
+       $lt: ["$budget", "$grossWorldwide"]
+     }
+   }
+ ).pretty();

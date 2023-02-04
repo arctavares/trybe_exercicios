@@ -1,0 +1,2 @@
+use('test');
+db.moviess.updateOne({title: 'Home Alone'}, {$inc: {budget: 5}})

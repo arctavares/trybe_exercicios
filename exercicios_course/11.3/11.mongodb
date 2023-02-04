@@ -1,0 +1,13 @@
+use('test');
+db.movies.find({
+    $and: [{
+        ratings: {$size: 4}
+    },
+    {
+        category: {$elemMatch: {$in: ['adventure', 'family']}}
+    },
+    {
+        imdbRating: {$not: {$lte: 7}}
+    }
+    ]
+})

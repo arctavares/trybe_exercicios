@@ -1,0 +1,7 @@
+use('test');
+db.moviess.updateMany({},{
+    $unset:{
+        budget: '',
+        estimatedBudget: ''
+    }
+})

@@ -1,0 +1,6 @@
+use('test');
+db.moviess.updateMany({},{
+    $set: {
+        sequels: 0
+    }
+})

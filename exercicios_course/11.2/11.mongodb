@@ -1,0 +1,2 @@
+use('super_heroes');
+db.heroes.countDocuments({"aspects.hairColor": {$not: {$in: ['black', 'no hair']}}})

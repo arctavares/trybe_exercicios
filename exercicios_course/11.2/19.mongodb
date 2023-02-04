@@ -1,0 +1,4 @@
+use('super_heroes');
+db.heroes.deleteMany(
+    {publisher: 'George Lucas'}
+);

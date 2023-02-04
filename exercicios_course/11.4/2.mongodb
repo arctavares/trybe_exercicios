@@ -1,0 +1,2 @@
+use('test');
+db.moviess.updateOne({title: 'Godzilla'}, {$set: {budget: 1}})
